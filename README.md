@@ -11,11 +11,13 @@ See the [Ruby docs][rubydocs] for more information.
 
 [rubydocs]: http://rubydoc.info/gems/email_reply_parser/
 
-##Usage
+## Usage
 
 To parse reply body:
 
-`parsed_body = EmailReplyParser.parse_reply(email_body)`
+``` ruby
+parsed_body = EmailReplyParser.parse_reply email_body_plain_text
+```
 
 ## Problem?
 
